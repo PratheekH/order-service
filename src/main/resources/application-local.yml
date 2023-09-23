@@ -1,0 +1,19 @@
+server:
+  port: 9094
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:2209@localhost:27017/orderdb?authSource=admin
+      host: localhost
+      port: 27017
+      database: orderdb
+
+
+
+
